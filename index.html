@@ -19,35 +19,43 @@
 </head>
 
 <body>
-  <main class="card">
+  <div class="bubbleWrap">
+    <img src="images/bg-pattern-top.svg" class="backgroundBubbleOne" alt="" aria-hidden="true">
+    <img src="images/bg-pattern-bottom.svg" class="backgroundBubbleTwo" alt="" aria-hidden="true">
+  </div>
+
+  <main class="card isResponsive">
     <section class="cardContent isResponsive">
       <div class="topOfCard"></div>
 
       <div class="profile isResponsive">
         <img src="images/image-victor.jpg" class="profileImg" alt="Victor Crest's profile photo.">
-          <h1>Victor Crest <span>26</span></h1>
+        <div class="profileText">
+          <ul class="sr-only">
+            <li><span>Name:</span>Victor Crest</li>
+            <li><span>Age:</span>26</span></li>
+            <li><spanr-only">From:</span>London</li>
+          </ul>
+
+          <p class="name">Victor Crest <span class="age">26</span></p>
           <p>London</p>
-      </div>
-
-      <div class="data isResponsive">
-
-        <div>
-          <h2>80K</h2>
-          <p>Followers</p>
-        </div>
-
-        <div>
-          <h2>803K</h2>
-          <p>Likes</p>
-        </div>
-
-        <div>
-          <h2>1.4K</h2>
-          <p>Photos</p>
         </div>
       </div>
+
+      <ul class="data isResponsive">
+        <li>
+          <span class="counter">80K</span> Followers
+        </li>
+        <li>
+          <span class="counter">803K</span> Likes
+        </li>
+        <li>
+          <span class="counter">1.4K</span> Photos
+        </li>
+      </ul>
     </section>
   </main>
+
 </body>
 
 </html>
