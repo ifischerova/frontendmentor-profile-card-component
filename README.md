@@ -79,6 +79,24 @@ div class="bubbleWrap">
 - I discovered that I can use margin also in a negative way :-D And that is probably more useful to add padding to the whole container
 than to each different element in the container.
 
+**absolute X transform property**
+- absolute positioning will cut out the element from the layout.
+- transform - the element will stay at the absolute position in the layout (centre at this challenge) but it is drawn 
+  (means also visible) at another part of the page.
+
+- explicit px in the topOfCard are Ok, because it is only a design element.
+- on the other hand profileText is a fluid container so the explicit height makes no sense.
+- margin at img elements is set to 0 by default so I do not need to specify it in CSS
+- sometimes is better to specify border raidus at three sides of the rounded image only- it does not add the empty space 
+  where is not needed then.
+- if I use absolute positioning then I can set *height:100%* because the the height is already known in this element.
+
+**Description list element**
+Can also be used for key-value pairs (instead od ul and li).
+
+**Article HTML element instead of section**
+https://stackoverflow.com/questions/7549561/section-vs-article-html5
+
 ### Continued development
 I need to train and get myself more experienced in work with background images in layers to be able to code more complicated designs combining more items together. 
 
@@ -92,6 +110,9 @@ elements
 - [Transform property MDN documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) - in the simplified way - this property "draws" the element on some place on the screen where I need it while the element iself has the unchaged position. 
 - [Overflow property MDN documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow) 
 - [Background property MDN documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/background) 
+- [How To: Write Good Alt Text](https://supercooldesign.co.uk/blog/how-to-write-good-alt-text)
+
+- [Description List element MDN documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl)
 
 ## Author
 
